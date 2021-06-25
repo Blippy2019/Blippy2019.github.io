@@ -128,6 +128,7 @@ section p {
 a {
     color: #468cffff;
     font-weight: 800;
+    text-decoration: underline;
     text-decoration-thickness: 4px;  
     font-size: 30px;
     line-height: 50px;

@@ -1,0 +1,148 @@
+* {
+    margin: auto;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+nav {
+    height:5vh;
+    padding-top:0;
+    background-color: #468cffff;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+header {
+    height: 100vh;
+    min-height: 300px;
+    background-color: #468cffff;
+    background-image: url("boat_header.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 95%;
+}
+
+#topDisplayText{
+    color: #e1ecffff;
+    position: absolute;
+    bottom: 4rem;
+    right: 40px;
+    text-align: right;
+}
+
+#headerShadow {
+    height: 3vh;
+    background: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 100%);
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 600;
+    text-align: right;
+}
+
+h2 {
+    font-size: 85px;  
+    font-weight: 500;
+} 
+
+h3 {
+    font-size: 55px;
+    color: #468cffff;
+}
+
+hr {
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background-color: #a4a4a4ff;
+    border-width: 0px;
+    height: 2px;
+    width: 80%;
+}
+
+section {
+    height: fit-content;
+    padding: 120px;
+    padding-bottom:0px;
+}
+
+section p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #797979ff;
+    margin: 100px;
+}
+
+#aboutMe img{
+    height: 100px;
+}
+
+.projectDiv{
+    display: flex;
+    width:60%;
+    min-width: 500px;
+    justify-content: center;
+    margin:auto;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+.projectDiv p{
+    font-size: 18px;
+    width: 55%;
+    text-align: left;
+    margin: auto;
+}
+
+.projectDiv.right p{
+    text-align: right;
+}
+
+.projectLine {
+    width: 45%;
+    background-color:#e7e7e7ff;
+    height:1px;
+}
+
+.projectDisplay {
+    background-color: #a6c7ffff;
+    width:130%;
+    height:10%;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 20px;
+    box-shadow: 5px 8px lightgray;
+}
+
+.projectDisplay:hover{
+    background-color: #468cffff;
+}
+
+.projectDisplay img{
+    width:30%;
+}
+
+a {
+    color: #468cffff;
+    font-weight: 800;
+    text-decoration-thickness: 4px;  
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.allProjects {
+    margin: 100px;
+}
+
+.allProjects a{
+    color:#797979ff;
+}
+
+footer {
+    background-color: #468cffff;
+    padding: 40px;
+    color: white;
+}
